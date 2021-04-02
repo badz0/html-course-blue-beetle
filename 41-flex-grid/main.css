@@ -13,6 +13,10 @@ p {
   box-sizing: border-box;
 }
 
+button, input {
+  font-family: inherit;
+}
+
 .flex-container, .grid-container {
   background-color: #9af7ed;
 }
