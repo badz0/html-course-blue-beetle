@@ -50,12 +50,16 @@
 
 
 
+.header-wrap {
+  background: bisque;
+}
 
 .header {
-  background: bisque;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  max-width: 960px;
+  margin: auto;
 }
 
 .logo {
@@ -104,4 +108,27 @@
 
 input, button {
   border: none;
+}
+
+
+
+@media (max-width: 500px) {
+  .header {
+
+  }
+
+  .search {
+    width: 100%;
+    order: 1;
+    margin: 20px 0 0 0;
+  }
+
+  .log-in-btn {
+    margin-left: auto;
+    width: 100px;
+  }
+
+  .logo {
+    width: 100px;
+  }
 }

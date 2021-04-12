@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title">title</h1>
+    <!-- <svg  viewBox="0 0 57 38" >
+      <use xlink:href="#test"></use>
+    </svg> -->
+
+<!-- 
+    <svg id="test" class="hide" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 57 38">
+      <defs/>
+      <g clip-path="url(#clip0)">
+        <path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M36.5 12.8C36.5 5 33 1 28.3 1 23.5 1 20 4.9 20 12.8h16.5zM42.3 36.5l2.6-12.2 2.4-11.5h-38L14 36.5h28.3z"/>
+        <path id="eyes" d="M22.8 23.3a2 2 0 100-4 2 2 0 000 4zM33.8 23.3a2 2 0 100-4 2 2 0 000 4z"/>
+        <path stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M28.3 30.8c2 0 3.5-.9 3.5-2s-1.6-2-3.5-2c-2 0-3.5.9-3.5 2s1.6 2 3.5 2zM12 26.5L1.5 21M44.5 26.5L55 21"/>
+      </g>
+        <clipPath id="clip0">
+          <path fill="#fff" d="M0 0h56v38H0z" transform="translate(.5)"/>
+        </clipPath>
+      </defs>
+    </svg> -->
+
+
+    <picture>
+      <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+      <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+      <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+    
+    <img class="dog-img"
+      sizes="(max-width: 800px) 100vw, 50vw"
+      srcset="
+        ./dog/dog_c_scale,w_200.jpg 200w,
+        ./dog/dog_c_scale,w_896.jpg 896w,
+        ./dog/dog_c_scale,w_1329.jpg 1329w,
+        ./dog/dog_c_scale,w_1689.jpg 1689w,
+        ./dog/dog_c_scale,w_2000.jpg 2000w"
+      src="./dog/dog_c_scale,w_2000.jpg"
+      alt="">
+
+  </div>
+</body>
+</html>
+
+

@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 20px;
+}
+
+p, h1 {
+  margin: 0;
+}
+
+
+
+
+.container {
+  min-height: 500px;
+  background-color: palegreen;
+}
+
+.title {
+  font-size: 20px;
+  color: brown;
+}
+
+ /* 768px 1024px 1440px */
+
+@media (max-width: 500px) {
+  .container {
+    background-color: plum;
+  }
+  .title {
+    color: burlywood;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 300px) {
+  .container {
+    background-color: coral;
+  }
+  .title {
+    color: burlywood;
+    font-size: 40px;
+  }
+}
+
+
+
+svg path {
+  stroke: cornflowerblue;
+}
+
+svg {
+  width: 100px;
+}
+
+#eyes {
+  fill: crimson;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.dog-img {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .dog-img {
+    width: 50%;
+  }
+}
